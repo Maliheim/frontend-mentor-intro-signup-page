@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    /* Primary Colors */
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    /* Accent Colors */
+    --blue: hsl(248, 32%, 49%);
+    /* Neutral Colors */
+    --darkblue: hsl(249, 10%, 26%);
+    --grayblue: hsl(246, 25%, 77%);
+}
+
+.display{
+    display: flex;
+}
+
+#background{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+.b1{
+    border: 2px solid rgba(255, 0, 0, 0.161);
+    width: 50%;
+    height: 100vh;
+}
+
+#p1{
+    font-weight: 700;
+    font-size: 42px;
+}
+
+#p2{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.b2{
+    border: 2px solid green;
+    width: 50%;
+    height: 100vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
