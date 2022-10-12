@@ -15,12 +15,12 @@
     --darkblue: hsl(249, 10%, 26%);
     --grayblue: hsl(246, 25%, 77%);
 }
-.fuckubutton{
-    padding: 60px;
-}
 
 .display{
     display: flex;
+    position: relative;
+    z-index: 0;
+    background-color: var(--red);
 }
 
 #background{
@@ -31,7 +31,6 @@
 }
 
 .b1{
-    border: 2px solid rgba(255, 0, 0, 0.161);
     display: flex;
     align-items: center;
     padding: 100px;
@@ -40,27 +39,66 @@
 }
 
 #p1{
+    color: white;
     font-weight: 700;
     font-size: 42px;
 }
 
 #p2{
+    color: white;
     font-weight: 500;
     font-size: 18px;
 }
 
 .b2{
-    border: 2px solid green;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: baseline;
     width: 50%;
     height: 100vh;
+}
+
+#btn1{
+    color: white;
+    background-color: var(--blue);
+    height: 64px;
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: 24px;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+}
+
+.b2Content{
+    margin-bottom: auto;
+    width: 70%;
+    background-color: white;
+    border-radius: 24px;
+    border: 8px solid white;
 }
 
 .form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 16px;
     background-color: white;
-    /* padding: 20px; */
+    padding: 20px;
+}
+
+#finput{
+
+}
+
+#linput{
+
+}
+
+#einput{
+
+}
+
+#pinput{
+
 }
